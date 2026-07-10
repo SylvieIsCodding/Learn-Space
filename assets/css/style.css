@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.sidebar {
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.lesson-card:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+.progress-bar {
+    transition: width 0.5s ease;
+}
+
+.nav-link.active {
+    background: rgba(255,255,255,0.15);
+    border-radius: 8px;
+}
+
+.upload-zone {
+    border: 2px dashed #6366f1;
+    transition: all 0.2s ease;
+}
+
+.upload-zone:hover {
+    background: #eef2ff;
+}
+
+.quiz-option:hover {
+    background: #eef2ff;
+    border-color: #6366f1;
+}
+
+.quiz-option.correct {
+    background: #dcfce7;
+    border-color: #16a34a;
+}
+
+.quiz-option.wrong {
+    background: #fee2e2;
+    border-color: #dc2626;
+}
